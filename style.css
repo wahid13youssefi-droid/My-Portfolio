@@ -1,0 +1,35 @@
+body { 
+    background-color: #131313; 
+    color: #e5e2e1; 
+}
+
+.neon-border { 
+    border: 1px solid #2d2d2d; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.neon-border:hover { 
+    border-color: #4d8eff; 
+    box-shadow: inset 0 0 10px rgba(77, 142, 255, 0.2); 
+}
+
+.gradient-text { 
+    background: linear-gradient(90deg, #adc6ff, #4d8eff); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+
+.timeline-line { 
+    width: 2px; 
+    background: linear-gradient(180deg, #4d8eff 0%, #00285d 100%); 
+}
+
+.glass-card { 
+    background: rgba(26, 26, 26, 0.8); 
+    backdrop-filter: blur(12px); 
+    border: 1px solid rgba(255, 255, 255, 0.05); 
+}
+
+.glow-dot { 
+    box-shadow: 0 0 15px #4d8eff; 
+}
