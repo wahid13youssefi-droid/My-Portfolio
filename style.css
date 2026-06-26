@@ -517,7 +517,7 @@ resize: none;
 
  }
 
- .navbar .active{
+ .navbar.active{
   display: block;
 
  }
